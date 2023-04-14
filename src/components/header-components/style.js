@@ -1,9 +1,10 @@
 export const titleStyle = {
-    fontSize: '18px'
+    fontSize: '14px',
+    color: 'white'
 };
 
 export const navBarStyle = {
-    fontSize: '14px'
+    fontSize: '12px'
 };
 
 export const navLinkStyle = {
@@ -11,5 +12,6 @@ export const navLinkStyle = {
 };
 
 export const nameStyle = {
-    fontSize: '18px'
+    fontSize: '11px',
+    color: 'white'
 };

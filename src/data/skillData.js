@@ -83,7 +83,7 @@ export const skillData = [
         groupName: 'Software Testing',
         skillList: [
             {
-                name: 'Micro Focus LoadRunner',
+                name: 'LoadRunner',
                 logo: lrLogo,
             }
         ],

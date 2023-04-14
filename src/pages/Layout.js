@@ -4,11 +4,11 @@ import Footer from "../components/Footer";
 
 const Layout = () => {
     return (
-        <>
+        <div className="d-flex flex-column min-vh-100">
             <Header/>
             <Outlet/>
             <Footer/>
-        </>
+        </div>
     )
 };
 

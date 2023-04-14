@@ -4,7 +4,7 @@ import Contact from "../components/body-components/personal-info/Contact";
 
 const PersonalInfo = () => {
     return (
-        <div>
+        <div style={{fontSize: '14px'}}>
             <Biodata/>
             <Education/>
             <Contact/>

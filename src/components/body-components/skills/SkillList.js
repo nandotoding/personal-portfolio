@@ -1,8 +1,10 @@
+import {skillNameStyle} from "./style";
+
 const SkillList = (props) => {
     return (
-        <div>
-            <img src={props.skill.logo} height="100px"/>
-            <p>{props.skill.name}</p>
+        <div className="col-sm-2 text-center">
+            <img src={props.skill.logo} height="60px"/>
+            <p className="mt-2" style={skillNameStyle}>{props.skill.name}</p>
         </div>
     )
 };
