@@ -1,8 +1,8 @@
 const Biodata = () => {
     return (
-        <div className="container-fluid m-0 p-5 pb-0">
+        <div className="m-2 p-5 card">
             <h6>Biodata</h6>
-            <table>
+            <table className="table table-bordered">
                 <tr>
                     <td>Full Name</td>
                     <th>Fernando Toding Bua</th>
@@ -13,7 +13,7 @@ const Biodata = () => {
                 </tr>
                 <tr>
                     <td>Birth Date</td>
-                    <th>27th November 1999</th>
+                    <th>27<sup>th</sup> November 1999</th>
                 </tr>
                 <tr>
                     <td>Address</td>

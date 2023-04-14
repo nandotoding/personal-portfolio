@@ -4,7 +4,7 @@ import {navBarStyle, navLinkStyle} from "./style";
 const NavBar = () => {
     return (
         <div>
-            <nav className="navbar navbar-expand-sm">
+            <nav className="navbar navbar-expand-sm" style={navBarStyle}>
                 <ul className="nav">
                     <li className="nav-item">
                         <Link to="/" className="nav-link" style={navLinkStyle}>Home</Link>

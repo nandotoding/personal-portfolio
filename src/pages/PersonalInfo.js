@@ -4,11 +4,11 @@ import Contact from "../components/body-components/personal-info/Contact";
 
 const PersonalInfo = () => {
     return (
-        <>
+        <div>
             <Biodata/>
             <Education/>
             <Contact/>
-        </>
+        </div>
     )
 };
 
