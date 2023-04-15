@@ -1,4 +1,3 @@
-import shibaInu from '../assets/shiba-inu.png';
 import {welcomeTextStyle} from "./style";
 
 const Home = () => {

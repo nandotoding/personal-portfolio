@@ -11,6 +11,7 @@ import cssLogo from '../assets/css-logo.png';
 import reactLogo from '../assets/react-logo.png';
 import bsLogo from '../assets/bootstrap-logo.png';
 import lrLogo from '../assets/loadrunner-logo.png';
+import pmLogo from '../assets/postman-logo.png';
 
 export const skillData = [
     {
@@ -47,6 +48,10 @@ export const skillData = [
             {
                 name: 'GIT',
                 logo: gitLogo,
+            },
+            {
+                name: 'Postman',
+                logo: pmLogo,
             }
         ],
     },
@@ -85,6 +90,10 @@ export const skillData = [
             {
                 name: 'LoadRunner',
                 logo: lrLogo,
+            },
+            {
+                name: 'Postman',
+                logo: pmLogo,
             }
         ],
     }

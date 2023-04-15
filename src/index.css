@@ -19,3 +19,7 @@ code {
 .imghov:hover {
   opacity: 50%;
 }
+
+.activeNav {
+  background-color: #175e98;
+}

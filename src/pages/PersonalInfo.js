@@ -1,14 +1,21 @@
 import Biodata from "../components/body-components/personal-info/Biodata";
 import Education from "../components/body-components/personal-info/Education";
 import Contact from "../components/body-components/personal-info/Contact";
+import {pageTitleStyle} from "./style";
+import {bioData, contData} from "../data/bioData";
 
 const PersonalInfo = () => {
     return (
-        <div style={{fontSize: '14px'}}>
-            <Biodata/>
-            <Education/>
-            <Contact/>
-        </div>
+        <>
+            <div className="mt-3" style={pageTitleStyle}>
+                <h6>Biographical Data</h6>
+            </div>
+            <div style={{fontSize: '12px'}}>
+                <Biodata data={bioData}/>
+                <Education/>
+                <Contact data={contData}/>
+            </div>
+        </>
     )
 };
 

@@ -6,7 +6,7 @@ import SkillsPage from "./pages/SkillsPage";
 import ExperiencesPage from "./pages/ExperiencesPage";
 import NotFoundPage from "./pages/NotFoundPage";
 
-function App() {
+const App = () => {
   return (
       <BrowserRouter>
           <Routes>
