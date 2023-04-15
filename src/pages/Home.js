@@ -1,4 +1,5 @@
 import {welcomeTextStyle} from "./style";
+import Stock from "../components/body-components/home/Stock";
 
 const Home = () => {
     return (
@@ -8,9 +9,9 @@ const Home = () => {
                     <p className="display-6" style={welcomeTextStyle}>Hello. I am Nando.</p>
                     <p className="display-6" style={welcomeTextStyle}>I am a Software Engineer.</p>
                 </div>
-                {/*<div>*/}
-                {/*    <img src={shibaInu} alt="Shiba Inuuu" className="me-2"/>*/}
-                {/*</div>*/}
+                <div>
+                    <Stock/>
+                </div>
             </div>
         </>
     )
