@@ -9,7 +9,9 @@ const apiToken = process.env.REACT_APP_API_TOKEN;
 const Home = () => {
     const [stock, setStock] = useState([]);
 
-    const url = `https://api.stockdata.org/v1/data/quote?symbols=AAPL%2CTSLA%2CMSFT&api_token=${apiToken}`;
+    // const url = `https://api.stockdata.org/v1/data/quote?symbols=AAPL%2CTSLA%2CMSFT&api_token=${apiToken}`;
+
+    const url = 'http://localhost:8080';
 
     const handleGetStock = () => {
         fetch(url)
