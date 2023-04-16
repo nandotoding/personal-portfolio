@@ -4,7 +4,7 @@ import {bioTitleStyle} from "./style";
 const Education = () => {
     return (
         <div className="m-2 p-2 card">
-            <div className="card-header text-center">
+            <div className="card-header text-center bg-transparent">
                 <h6 style={bioTitleStyle}>Education</h6>
             </div>
             <div className="card-body text-center">

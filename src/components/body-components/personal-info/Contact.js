@@ -4,7 +4,7 @@ import ContactList from "./ContactList";
 const Contact = (props) => {
     return (
         <div className="p-2 m-2 card">
-            <div className="card-header text-center">
+            <div className="card-header text-center bg-transparent">
                 <h6 style={bioTitleStyle}>Contacts & Social Media</h6>
             </div>
             <div className="card-body">

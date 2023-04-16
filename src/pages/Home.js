@@ -1,16 +1,35 @@
-import {welcomeTextStyle} from "./style";
 import Stock from "../components/body-components/home/Stock";
+import {useEffect, useState} from "react";
+import {stockData} from "../data/stockData";
+import HomeCarousel from "../components/body-components/home/HomeCarousel";
+import {crslData} from "../data/crslData";
+
+const apiToken = process.env.REACT_APP_API_TOKEN;
 
 const Home = () => {
+    const [stock, setStock] = useState([]);
+
+    const url = `https://api.stockdata.org/v1/data/quote?symbols=AAPL%2CTSLA%2CMSFT&api_token=${apiToken}`;
+
+    const handleGetStock = () => {
+        fetch(url)
+            .then(res => res.json())
+            .then(data => setStock(data.data));
+    };
+
+    useEffect(() => {
+        handleGetStock();
+        console.log(stock);
+    }, []);
+
     return (
         <>
             <div>
                 <div>
-                    <p className="display-6" style={welcomeTextStyle}>Hello. I am Nando.</p>
-                    <p className="display-6" style={welcomeTextStyle}>I am a Software Engineer.</p>
+                    <HomeCarousel data={crslData}/>
                 </div>
                 <div>
-                    <Stock/>
+                    <Stock data={stock} imgs={stockData}/>
                 </div>
             </div>
         </>
