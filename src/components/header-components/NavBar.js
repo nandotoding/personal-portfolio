@@ -1,5 +1,5 @@
 import {Link} from "react-router-dom";
-import {navBarStyle, navLinkStyle} from "./style";
+import {activeNavStyle, navBarStyle, navLinkStyle} from "./style";
 import {useState} from "react";
 
 const NavBar = () => {
@@ -40,16 +40,16 @@ const NavBar = () => {
         <div>
             <nav className="navbar navbar-expand-sm" style={navBarStyle}>
                 <ul className="nav">
-                    <li className="p-0 nav-item hov rounded-4" onClick={handleActiveNav1} style={active1 ? {backgroundColor: '#175e98'} : {}}>
+                    <li className="p-0 nav-item hov rounded-4" onClick={handleActiveNav1} style={active1 ? activeNavStyle : {}}>
                         <Link to="/" className="nav-link" style={navLinkStyle}>Home</Link>
                     </li>
-                    <li className="nav-item hov rounded-4" onClick={handleActiveNav2} style={active2 ? {backgroundColor: '#175e98'} : {}}>
+                    <li className="nav-item hov rounded-4" onClick={handleActiveNav2} style={active2 ? activeNavStyle : {}}>
                         <Link to="/bio" className="nav-link" style={navLinkStyle}>Bio & Contacts</Link>
                     </li>
-                    <li className="nav-item hov rounded-4" onClick={handleActiveNav3} style={active3 ? {backgroundColor: '#175e98'} : {}}>
+                    <li className="nav-item hov rounded-4" onClick={handleActiveNav3} style={active3 ? activeNavStyle : {}}>
                         <Link to="/skills" className="nav-link" style={navLinkStyle}>Skills</Link>
                     </li>
-                    <li className="nav-item hov rounded-4" onClick={handleActiveNav4} style={active4 ? {backgroundColor: '#175e98'} : {}}>
+                    <li className="nav-item hov rounded-4" onClick={handleActiveNav4} style={active4 ? activeNavStyle : {}}>
                         <Link to="/experiences" className="nav-link" style={navLinkStyle}>Experiences</Link>
                     </li>
                 </ul>

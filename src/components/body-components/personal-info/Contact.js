@@ -1,9 +1,9 @@
-import {bioTitleStyle} from "./style";
+import {bioTitleStyle, cardStyle} from "./style";
 import ContactList from "./ContactList";
 
 const Contact = (props) => {
     return (
-        <div className="p-2 m-2 card">
+        <div className="p-2 m-2 card" style={cardStyle}>
             <div className="card-header text-center bg-transparent">
                 <h6 style={bioTitleStyle}>Contacts & Social Media</h6>
             </div>

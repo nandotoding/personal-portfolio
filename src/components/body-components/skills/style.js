@@ -5,3 +5,7 @@ export const skillNameStyle = {
 export const groupNameStyle = {
     fontSize: '14px'
 };
+
+export const cardStyle = {
+    backgroundColor: '#cef7f7'
+};

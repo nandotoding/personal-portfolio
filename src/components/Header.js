@@ -3,10 +3,11 @@ import NavBar from "./header-components/NavBar";
 import WaMe from "./header-components/WaMe";
 import Name from "./header-components/Name";
 import Github from "./header-components/Github";
+import {headerStyle} from "./style";
 
 const Header = () => {
     return (
-        <div className="container-fluid d-flex p-0 m-0 fixed-top position-sticky top-0" style={{backgroundColor: '#174d98'}}>
+        <div className="container-fluid d-flex p-0 m-0 fixed-top position-sticky top-0" style={headerStyle}>
             <div>
                 <Title/>
             </div>

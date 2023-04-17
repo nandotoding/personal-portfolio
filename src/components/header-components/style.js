@@ -1,6 +1,6 @@
 export const titleStyle = {
     fontSize: '14px',
-    color: 'white'
+    color: '#fef250'
 };
 
 export const navBarStyle = {
@@ -14,4 +14,8 @@ export const navLinkStyle = {
 export const nameStyle = {
     fontSize: '11px',
     color: 'white'
+};
+
+export const activeNavStyle = {
+    backgroundColor: '#1c2e4a'
 };

@@ -1,6 +1,11 @@
 import emailLogo from '../assets/gmail-logo.png';
 import liLogo from '../assets/linkedin-logo.png';
 import igLogo from '../assets/ig-logo.png';
+import photo from '../assets/photo.jpg';
+
+export const photoData = {
+    photo: photo,
+};
 
 export const bioData = [
     {

@@ -3,6 +3,7 @@ import {useEffect, useState} from "react";
 import {stockData} from "../data/stockData";
 import HomeCarousel from "../components/body-components/home/HomeCarousel";
 import {crslData} from "../data/crslData";
+import {homeStyle} from "./style";
 
 const apiToken = process.env.REACT_APP_API_TOKEN;
 
@@ -26,7 +27,7 @@ const Home = () => {
 
     return (
         <>
-            <div>
+            <div style={homeStyle}>
                 <div>
                     <HomeCarousel data={crslData}/>
                 </div>
