@@ -9,8 +9,12 @@ const apiToken = process.env.REACT_APP_API_TOKEN;
 
 const Home = () => {
     const [stock, setStock] = useState([]);
+    // const [crypto, setCrypto] = useState({});
 
-    const url = `https://api.stockdata.org/v1/data/quote?symbols=AAPL%2CTSLA%2CMSFT&api_token=${apiToken}`;
+    // const url = `https://api.stockdata.org/v1/data/quote?symbols=AAPL%2CTSLA%2CMSFT&api_token=${apiToken}`;
+    const url = 'http://localhost:8080';
+
+    // const cryptoApiUrl = url + '/crypto';
 
     const handleGetStock = () => {
         fetch(url)
@@ -18,9 +22,15 @@ const Home = () => {
             .then(data => setStock(data.data));
     };
 
+    // const handleGetCrypto = () => {
+    //     fetch(cryptoApiUrl)
+    //         .then(res => res.json())
+    //         .then(data => setCrypto(data));
+    // };
+
     useEffect(() => {
         handleGetStock();
-        console.log(stock);
+        // handleGetCrypto();
     }, []);
 
     return (
