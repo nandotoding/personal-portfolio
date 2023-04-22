@@ -8,7 +8,7 @@ const HomeCarousel = (props) => {
     }
 
     return (
-        <Carousel activeIndex={index} onSelect={handleSelect}>
+        <Carousel activeIndex={index} onSelect={handleSelect} indicators={false}>
             {props.data.map((slide, i) => {
                 return (
                     <Carousel.Item>
