@@ -38,7 +38,7 @@ const NavBar = () => {
 
     return (
         <div>
-            <nav className="navbar navbar-expand-sm" style={navBarStyle}>
+            <nav className="navbar navbar-expand-lg" style={navBarStyle}>
                 <ul className="nav">
                     <li className="p-0 nav-item hov rounded-4" onClick={handleActiveNav1} style={active1 ? activeNavStyle : {}}>
                         <Link to="/" className="nav-link" style={navLinkStyle}>Home</Link>

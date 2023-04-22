@@ -3,9 +3,9 @@ import {pageTitleStyle} from "../../../pages/style";
 
 const Stock = (props) => {
     return (
-        <div className="m-2 card" style={{backgroundColor: '#cef7f7'}}>
+        <div className="m-2 mt-5 card" style={{backgroundColor: '#cef7f7'}}>
             <div className="mt-3 card-header bg-transparent" style={pageTitleStyle}>
-                <h6> Realtime Stock Prices</h6>
+                <h6> Realtime Stocks Price</h6>
             </div>
             <div className="d-flex m-2 row">
                 {props.data.map(d => <StockList data={d} imgs={props.imgs}/>)}
