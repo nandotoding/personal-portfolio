@@ -22,12 +22,11 @@ const Home = () => {
 
     useEffect(() => {
         handleGetStock();
-        // handleGetCrypto();
     }, []);
 
     return (
         <>
-            <div style={homeStyle}>
+            <div>
                 <div>
                     <HomeCarousel data={crslData}/>
                 <div>

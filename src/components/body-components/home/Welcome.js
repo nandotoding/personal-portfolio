@@ -7,7 +7,7 @@ const Welcome = (props) => {
                 <div className="col-sm-4 text-center d-flex justify-content-center align-items-center">
                     <div style={{fontFamily: 'Tenor Sans'}}>
                         <p style={{fontSize: '32pt', fontFamily: 'Tangerine'}}>Hello!</p>
-                        <p style={{fontSize: '14pt'}}>I'm Nando. I'm a software engineer.</p>
+                        <p style={{fontSize: '12pt'}}>I'm Nando. I'm a software engineer.</p>
                     </div>
                 </div>
                 <div className="col-sm-4 bg-transparent text-black text-center d-flex justify-content-center align-items-center">
@@ -15,8 +15,8 @@ const Welcome = (props) => {
                 </div>
                 <div className="col-sm-4 mt-4 d-flex text-center justify-content-center align-items-center">
                     <div style={{fontFamily: 'Tenor Sans'}}>
-                        <p style={{fontSize: '14pt'}}>This is my personal website. This website</p>
-                        <p style={{fontSize: '14pt'}}>is developed using React and Bootstrap.</p>
+                        <p style={{fontSize: '12pt'}}>This is my personal website. This website</p>
+                        <p style={{fontSize: '12pt'}}>is developed using React and Bootstrap.</p>
                     </div>
                 </div>
             </div>

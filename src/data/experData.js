@@ -46,5 +46,11 @@ export const experData = [
         project: 'Personal Portfolio Website',
         owner: 'Personal Project',
         tech: 'JavaScript, HTML, CSS, React JS, Bootstrap 5',
+    },
+    {
+        role: 'Backend Developer',
+        project: 'Investree App',
+        owner: 'Internship Project Investree x Rakamin Academy',
+        tech: 'Java, Spring Boot, PostgreSQL, Postman',
     }
 ];

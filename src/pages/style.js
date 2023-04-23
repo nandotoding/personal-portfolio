@@ -8,5 +8,5 @@ export const pageTitleStyle = {
 };
 
 export const homeStyle = {
-    backgroundColor: 'white'
+    backgroundColor: 'light-blue'
 };
