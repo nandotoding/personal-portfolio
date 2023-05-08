@@ -52,5 +52,11 @@ export const experData = [
         project: 'Investree App',
         owner: 'Internship Project Investree x Rakamin Academy',
         tech: 'Java, Spring Boot, PostgreSQL, Postman',
+    },
+    {
+        role: 'Performance Test Engineer',
+        project: 'Livin',
+        owner: 'PT Bank Mandiri (Persero) Tbk',
+        tech: 'JMeter, LoadRunner',
     }
 ];

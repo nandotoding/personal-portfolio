@@ -9,7 +9,7 @@ const ExperiencesPage = () => {
                 <h6>Project Experiences</h6>
             </div>
             <div>
-                <ExperTable data={experData}/>
+                <ExperTable data={experData.reverse()}/>
             </div>
         </>
     )

@@ -22,7 +22,7 @@ export const bioData = [
     },
     {
         attribute: 'Address',
-        record: 'Pancoran, South Jakarta, Jakarta',
+        record: 'South Jakarta, Jakarta',
     }
 ];
 

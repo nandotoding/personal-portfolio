@@ -2,7 +2,7 @@ import {Link} from "react-router-dom";
 import {activeNavStyle, navBarStyle, navLinkStyle} from "./style";
 import {useState} from "react";
 
-const NavBar = () => {
+const NavBar = (props) => {
     const [active1, setActive1] = useState(false);
     const [active2, setActive2] = useState(false);
     const [active3, setActive3] = useState(false);
